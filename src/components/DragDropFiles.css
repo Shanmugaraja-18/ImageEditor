@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .side-by-side {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; 
+  }
+  
+  .dropzone,
+  .uploaded-image {
+    width: 100%; 
+    padding: 20px;
+    border: 2px dashed #ccc;
+    margin: 10px;
+  }
+  
+  
